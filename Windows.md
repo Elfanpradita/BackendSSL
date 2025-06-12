@@ -1,6 +1,6 @@
 # 🛠️ Panduan Setup HTTPS Lokal dengan mkcert di Windows
 
-## 📋 Prasyarat
+## 📋 UNTUK TUTORIAL VERSI MacOS ADA DI readme.md
 
 Sebelum memulai, pastikan Anda memenuhi persyaratan berikut:
 
@@ -79,4 +79,4 @@ Agar domain lokal Anda (`pemweb.test`) mengarah ke `127.0.0.1` (komputer Anda), 
 
 ## ✅ Langkah Selanjutnya: Konfigurasi Web Server
 
-# Copy 2 kodingan sertif SSSL yang ada ke kodingan laravelnya
+# Copy 2 kodingan sertif SSL yang ada ke kodingan laravelnya
