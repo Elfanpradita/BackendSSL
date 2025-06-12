@@ -28,7 +28,8 @@ Instalasi ini menggunakan Composer. Proses ini akan mengunduh semua dependensi y
 
 ```bash
 # Hapus semua file yang ada (jika perlu)
-rm -rf ./* ./.*
+rm -rf *
+rm -rf .*
 ```
 
 Setelah direktori bersih, jalankan perintah instalasi:
@@ -44,10 +45,13 @@ Sesuaikan kepemilikan dan izin akses pada folder `storage` dan `bootstrap` agar 
 
 ```bash
 # Mengubah kepemilikan folder
-chown -R www-data:www-data storage bootstrap/cache
+chown -R www-data:www-data storage/*
 
-# Mengatur izin akses folder (read, write, execute)
-chmod -R 775 storage bootstrap/cache
+#ini juga
+chmod 777 -R storage/*
+
+#ini juga
+chmod 777 bootstrap/*
 ```
 
 ### **Langkah 4: Konfigurasi Environment (`.env`)**
