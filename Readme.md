@@ -67,4 +67,6 @@ Agar komputer Anda tahu bahwa `pemweb.test` harus mengarah ke server lokal Anda 
 
 ---
 
-Setup selesai! Sekarang Anda bisa mengkonfigurasi server lokal Anda (misalnya Apache, Nginx, atau server development Node.js) untuk menggunakan file `pemweb.test.pem` dan `pemweb.test-key.pem` agar bisa diakses melalui `https://pemweb.test`.
+## ✅ Langkah Selanjutnya: Konfigurasi Web Server
+
+# Copy 2 kodingan sertif SSSL yang ada ke kodingan laravelnya
