@@ -69,4 +69,4 @@ Agar komputer Anda tahu bahwa `pemweb.test` harus mengarah ke server lokal Anda 
 
 ## ✅ Langkah Selanjutnya: Konfigurasi Web Server
 
-# Copy 2 kodingan sertif SSSL yang ada ke kodingan laravelnya
+# Copy 2 kodingan sertif SSL yang ada ke kodingan laravelnya
