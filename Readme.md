@@ -1,5 +1,7 @@
 # Panduan Setup HTTPS Lokal dengan mkcert di macOS
 
+# Jangan lupa sesuaikan dengan domain anda
+
 Ini adalah panduan langkah demi langkah untuk menyiapkan environment development lokal yang menggunakan HTTPS di macOS dengan `mkcert`. Ini memungkinkan Anda untuk mengakses proyek lokal seperti `https://pemweb.test` langsung di browser tanpa peringatan keamanan.
 
 ## Prasyarat
