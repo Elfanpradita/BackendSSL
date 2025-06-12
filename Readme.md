@@ -31,8 +31,8 @@ Buat direktori untuk menyimpan sertifikat Anda, lalu generate sertifikat untuk d
 
 ```bash
 # Buat dan masuk ke direktori SSL (misalnya di dalam folder Documents)
-mkdir -p ~/Documents/ssl
-cd ~/Documents/ssl
+mkdir ssl
+cd ssl
 
 # Generate sertifikat untuk pemweb.test
 mkcert pemweb.test
